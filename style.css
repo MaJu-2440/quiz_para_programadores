@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(assets/background-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #f4f0ea;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: #091e3e;
+    text-align: center;
+    color: #9a2cd5;
+
+    p {
+        color: #f4f0ea;
+    }
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sobre {
+    width: 70%;
+    border: none;
+    background-color: rgba(255, 255, 255, .6);
+    color: #9a2cd5;
+
+    h2 {
+        color: #091e3e;
+    }
+}
+
+section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 1.5rem;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+h2 {
+    color: #f4f0ea;
+    font-size: 1.2rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #bf95d5;
+    outline: none;
+    margin-right: 5px;
+}
+
+.checkbox form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-text, .input-senha, .input-date {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid rgba(255, 255, 255, .3);
+    outline: none;
+    border-radius: 20px;
+    background: transparent;
+    color: #f4f0ea;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, .5);
+}
+
+select {
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: #f4f0ea;
+    color: #091e3e;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 5rem;
+    margin-left: 2rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h2-branco {
+    color: #f4f0ea;
+}
+
+th {
+    background-color: #091e3e;
+    color: #f4f0ea;
+    padding: 1rem;
+}
+
+td {
+    color: #f4f0ea;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #bf95d5;
+    color: #091e3e;
+    font-weight: 600;
+}
+
+details {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #bf95d5;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 2rem;
+}
+
+ol li {
+    padding: 0.2rem;
+    color: #f4f0ea;
+}
+
+fieldset {
+    border: 2px solid #bf95d5;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #bf95d5;
+    padding: 0.5rem;
+}
+
+.input-fb {
+    border: 2px solid #bf95d5;
+    background: none;
+    width: 100%;
+    padding: 0.6rem;
+    color: #f4f0ea;
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #bf95d5;
+    color: #f4f0ea;
+    padding: 0.5rem;
+    resize: none;
+    width: 100%;
+}
+textarea::placeholder {
+    color: #bf95d5;
+    padding: 0.2rem;
+}
+
+button {
+    background-color: #bf95d5;
+    border: none;
+    padding: 0.8rem;
+    color: #091e3e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #9a2cd5;
+    color: #f4f0ea;
+}
+
+footer {
+    background-color: transparent;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #f4f0ea;
+}
+
+footer a {
+    color: #bf95d5;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
